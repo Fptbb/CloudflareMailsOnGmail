@@ -1,0 +1,4 @@
+name = "apitest"
+main = "src/index.js"
+compatibility_date = "2022-05-14"
+usage_model = "bundled"
