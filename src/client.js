@@ -113,9 +113,7 @@ const hookButton = (button) => {
 
     if (!deleteButton) return alert('No delete button found')
     var data = JSON.stringify({
-      email: emailList.filter(function (el) {
-        return el != undefined
-      }),
+      email: emailList.filter((el => el != undefined),
       subject: subjectBox.value,
     })
     GM_fetch(Api, {

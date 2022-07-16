@@ -16,6 +16,8 @@ After this, the server side part of the project is already working, you can test
   --data OK
 ```
 
+On the cloudflare too, if you haven't done it yet, you need to add a TXT record to your domain that your using it, to make sure SPF check will pass, as described [here](https://mailchannels.zendesk.com/hc/en-us/articles/200262610-Set-up-SPF-Records), so just add it, and came back here if you didn't.
+
 After that, the only thing that need to be done, is add the client script on your preferred extension and edit the variables at the first lines.
 And is all done here 🎉
 
